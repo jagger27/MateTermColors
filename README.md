@@ -7,7 +7,7 @@ Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions using 
 
 ![elementary](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/demos/themes.gif)
 
-In this repos, you'll find all the themes from the Gogh project already converted to work and install with MATE deskop environment.
+In this repos, you'll find all the themes from the Gogh project already converted to work and install with MATE desktop environment.
 
 ##### NOTES:
 - I'll try to update this repo with new themes included in Gogh, please let me know if you're missing a theme or want me to include new ones.
@@ -16,7 +16,7 @@ In this repos, you'll find all the themes from the Gogh project already converte
 
 ## Requirements
 
-- dconf (it should already be installed on all distributions I know with MATE, cited here for exhaustivity)
+- dconf (it should already be installed on all distributions I know with MATE, mentioned here for exhaustivity)
 
 ## Install
 
