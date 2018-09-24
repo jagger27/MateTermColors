@@ -1,28 +1,28 @@
 #!/usr/bin/env bash
 
 # ====================CONFIG THIS =============================== #
-COLOR_01="#1f1f1f"           # HOST
-COLOR_02="#fb002a"           # SYNTAX_STRING
-COLOR_03="#339c24"           # COMMAND
-COLOR_04="#659b25"           # COMMAND_COLOR2
-COLOR_05="#149b45"           # PATH
-COLOR_06="#53b82c"           # SYNTAX_VAR
-COLOR_07="#2cb868"           # PROMP
-COLOR_08="#e0ffef"           #
+COLOR_01="#1a1a1a"           # HOST
+COLOR_02="#f4005f"           # SYNTAX_STRING
+COLOR_03="#98e024"           # COMMAND
+COLOR_04="#fa8419"           # COMMAND_COLOR2
+COLOR_05="#987CC9"           # PATH
+COLOR_06="#f4005f"           # SYNTAX_VAR
+COLOR_07="#58d1eb"           # PROMP
+COLOR_08="#c4c5b5"           #
 
-COLOR_09="#032710"           #
-COLOR_10="#a7ff3f"           # COMMAND_ERROR
-COLOR_11="#9fff6d"           # EXEC
-COLOR_12="#d2ff6d"           #
-COLOR_13="#72ffb5"           # FOLDER
-COLOR_14="#50ff3e"           #
-COLOR_15="#22ff71"           #
-COLOR_16="#daefd0"           #
+COLOR_09="#625e4c"           #
+COLOR_10="#f4005f"           # COMMAND_ERROR
+COLOR_11="#98e024"           # EXEC
+COLOR_12="#e0d561"           #
+COLOR_13="#987CC9"           # FOLDER
+COLOR_14="#f4005f"           #
+COLOR_15="#58d1eb"           #
+COLOR_16="#f6f6ef"           #
 
-BACKGROUND_COLOR="#3a3d3f"   # Background Color
-FOREGROUND_COLOR="#d9efd3"   # Text
+BACKGROUND_COLOR="#101010"   # Background Color
+FOREGROUND_COLOR="#E8E9D8"   # Text
 CURSOR_COLOR="$FOREGROUND_COLOR" # Cursor
-PROFILE_NAME="IC Green PPL"
+PROFILE_NAME="Monokai Soda-HattRemix"
 # =============================================================== #
 
 

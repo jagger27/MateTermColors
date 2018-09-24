@@ -1,64 +1,51 @@
-Gogh
+MateTermColors - Gogh collection modified for MATE terminal
 ====
 
-![elementary](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/gogh/Gogh-icons.png)
+## Color Schemes for MATE terminal
 
-## Color Scheme for Gnome Terminal and Pantheon Terminal
-
-Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions that use gnome terminal or Pantheon Terminal, initially inspired by Elementary OS Luna. Also work on iTerm for macOS. You can check some themes [here...](https://mayccoll.github.io/Gogh/)
+Color Schemes For Ubuntu, Linux Mint, Elementary OS and all distributions using MATE terminal, colors are based on the Gogh project (you can check some themes [here...](https://mayccoll.github.io/Gogh/)).
 
 ![elementary](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/demos/themes.gif)
 
-----
+In this repos, you'll find all the themes from the Gogh project already converted to work and install with MATE deskop environment.
+
+##### NOTES:
+- I'll try to update this repo with new themes included in Gogh, please let me know if you're missing a theme or want me to include new ones.
+- I've added a new theme based on Monokai-soda, it's a personal tweak which is called Monokai-soda_hatt.
 
 
-<br/>
-<br/>
+## Requirements
 
-## Pre-Install
+- dconf (it should already be installed on all distributions I know with MATE, cited here for exhaustivity)
+
+## Install
+
+Change directory to the themes folder:
 
 ```bash
-$ sudo apt-get install dconf-cli
+$ cd themes
 ```
 
-## [Install](https://github.com/Mayccoll/Gogh/blob/master/content/install.md)
-
-Just copy and paste One line command.
-
+Pick the theme you'd like to install, and simply launch its associated script.
+Under is an example with 'Monokai-dark' theme:
 ```bash
-  $  wget -O gogh https://git.io/vQgMr && chmod +x gogh && ./gogh && rm gogh
+$ ./monokai-dark.sh
 ```
 
-**DEMO:**
+Make sure you exit all your terminals before you open a new terminal, and voila!
 
-![gogh-demo-profile](https://raw.githubusercontent.com/Mayccoll/Gogh/master/images/demos/gogh-demo-profile.gif)
-
-<br/>
-<br/>
+No need for root, juggling with profiles or anything complicated! ;-) The theme will be installed for the default profile and you're good to go.
 
 
-## [Themes](https://mayccoll.github.io/Gogh/)
-
-We have lots of themes. Check them out! [Here...](https://mayccoll.github.io/Gogh/)
-
-
-<br/>
-<br/>
-
-
-
-## [How to](https://github.com/Mayccoll/Gogh/blob/master/content/howto.md)
+## Create your own theme
 
 If you want to create your own color scheme or contribute to the project. [Here...](https://github.com/Mayccoll/Gogh/blob/master/content/howto.md)
 
 
-
-<br/>
-<br/>
-
-
 ## Credits:
+- [Gogh project](https://github.com/Mayccoll/Gogh) by Miguel D. Quintero (Lanet.co)
 
+## Themes credits:
 - [4bit](https://ciembor.github.io/4bit/)
 - [Chalk](https://github.com/chalk/chalk) by [Sindre Sorhus](https://github.com/sindresorhus)
 - [Dracula](https://github.com/dracula/dracula-theme) by [Zeno Rocha](https://github.com/zenorocha)
@@ -79,34 +66,4 @@ If you want to create your own color scheme or contribute to the project. [Here.
 - [Terminal Sexy](https://terminal.sexy) by [George Czabania](https://github.com/stayradiated)
 - [Tilix](https://github.com/storm119/Tilix-Themes)
 - [Tomorrow color theme set](https://github.com/chriskempson/tomorrow-theme) by [Chris Kempson](https://github.com/chriskempson)
-
-
 <br/>
-<br/>
-
-
-## Contributors:
-
-- [@contributors](https://github.com/Mayccoll/Gogh/graphs/contributors)
-
-<br/>
-<br/>
-
-
-## Author
-
-- Miguel D. Quintero - [Lanet.co](https://lanet.co)
-
-
-
-<br/>
-<br/>
-
-
-
-## Mentions
-
-- [Awesome-Shell](https://github.com/alebcay/awesome-shell)
-- [Hipertextual](https://hipertextual.com/archivo/2014/11/4bit/)
-- [MuyLinux](https://www.muylinux.com/2015/06/06/ping-91)
-- [Reddit - elementaryos](https://www.reddit.com/r/elementaryos/comments/3ivnb7/how_to_change_terminals_colors/)
